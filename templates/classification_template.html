@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classification Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h2 { color: #2c3e50; }
+        .section { margin-bottom: 40px; }
+    </style>
+</head>
+<body>
+    <h2>Classification Report</h2>
+    <div class="section">
+        <img src="{{ confusion_matrix_image }}" alt="Confusion Matrix" width="400">
+    </div>
+    <div class="section">
+        <h3>Metrics</h3>
+        <pre>{{ classification | tojson(indent=2) }}</pre>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suggestions for Further Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        ul { line-height: 1.6; }
+        h2 { color: #34495e; }
+    </style>
+</head>
+<body>
+    <h2>Suggestions for Further Analysis</h2>
+    <ul>
+        {% for s in suggestions %}
+            <li>{{ s }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
