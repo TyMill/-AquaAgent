@@ -3,6 +3,7 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/AquaAgent.svg)](https://pypi.org/project/AquaAgent/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15096947.svg)](https://doi.org/10.5281/zenodo.15098587)
+[![Docs](https://img.shields.io/badge/docs-online-blue?logo=readthedocs&style=flat-square)](https://TyMill.github.io/-AquaAgent/)
 
 **AquaAgent** is an autonomous and interactive AI agent for intelligent analysis and reporting of water quality data.
 
